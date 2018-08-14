@@ -80,6 +80,7 @@ public class MyLinkedList<T> {
             next.prefix=null;
             this.node.first=next;
         }
+        --this.len;
     }
 
     public Node add(T data){
